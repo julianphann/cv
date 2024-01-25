@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2023 utilitybend (https://codepen.io/utilitybend/pen/bGvjLba)
+Copyright (c) 2023 Josh (https://codepen.io/jepooley/pen/NWYryap)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
