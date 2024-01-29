@@ -1,20 +1,24 @@
 html {
     background-color: rgb(255, 226, 231);
-    margin-left: auto;
-    margin-right: auto;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(255, 0, 204, 0.162),
+        rgba(0, 0, 255, 0.196)
+      );
 }
 
 section h1 {
     font-family: "Space Mono", sans-serif;
     font-weight: 600;
-    font-size: 75px;;
+    font-size: 75px;
     font-style: normal;
-    text-align: center;
+    text-align: left;
+    background-color: rgba(255, 0, 115, 0.339);
 }
 
 body {
     font-family: "DM Sans", sans-serif;
-    margin:0 auto;
+    margin:0;
 }
 
 section {
@@ -23,10 +27,12 @@ section {
 }
 
 nav {
-    background-color: white;
     display:flex;
     justify-content: flex-end;
-    padding: 10px;
+    background-color: white;
+    margin:0;
+    padding:0;
+    vertical-align: top;
 }
 
 nav a{
@@ -35,28 +41,45 @@ nav a{
     color: black;
 }
 
+
 nav a:hover {
     color: red;
     text-decoration: underline;
   }
 
 footer {
-    background-color: white;
     text-align: center;
     padding: 10px;
+    background-color: white;;
 }
 
 footer a{
     text-decoration: none;
     transition: color 0.3s;
     color:black;
+    display: inline-block;
 }
 
 footer a:hover {
     color: #32673f;
     text-decoration: underline;
-  }
+}
 
+.footer-content {
+    display: flex;
+    align-items: center;
+    
+}
+footer img:hover {
+    filter: brightness(0.8);
+}
+
+
+img.headshot {
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+}
 img {
     border-radius: 50%;
     display: block;
@@ -70,13 +93,13 @@ h1 {
     font-family: "Jost", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: rgb(234, 123, 175);
+    color: rgb(255, 255, 255);
 }
 
 
 
 img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
 .row {
@@ -96,10 +119,16 @@ img {
 form{
     padding:30px;
     border:2px dashed rgba(255, 0, 166, 0.506);
+    margin:50px;
 }
 
 .contact{
-    padding:30px;
+    padding:0px;
+    margin:0;
+}
+
+.contact h1{
+    color:black;
 }
 
 
@@ -151,7 +180,7 @@ form{
     text-transform: uppercase;
   }
   
-  ,
+  
   .card li {
     position: absolute;
     opacity: 0;
