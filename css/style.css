@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .contact-link {
-    margin-right: 20px; /* Adjust the margin as needed */
+    margin-right: 20px; 
 }
 
 
@@ -236,7 +236,7 @@ form{
     text-decoration: none;
 }
 .card-content a:hover {
-    color: yellow; /* Change to your desired color */
+    color: yellow; 
 }
 
 .card:hover .card-content {
